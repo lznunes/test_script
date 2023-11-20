@@ -1,13 +1,13 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="TestSuite" parallel="tests" thread-count="2">
-    <test name="Test1">
+    <test name="Chorme">
         <classes>
-            <class name="com/topcoder/TestCase.java"/>
+            <class name="com.topcoder.TestCaseChrome"/>
         </classes>
     </test>
-    <test name="Test2">
+    <test name="Firefox">
         <classes>
-            <class name="com/topcoder/TestCase.java"/>
+            <class name="com.topcoder.TestCaseFirefox"/>
         </classes>
     </test>
     <!-- Adicione mais testes conforme necessário -->
